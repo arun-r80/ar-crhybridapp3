@@ -34,6 +34,7 @@
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/icon.png \
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/img \
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/index.html \
+/Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/index_1.html \
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/ios \
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/js \
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/package.json \
@@ -402,6 +403,7 @@
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/cordova/plugins/org.apache.cordova.contacts/www/ios/Contact.js \
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/cordova/plugins/org.apache.cordova.contacts/www/ios/contacts.js \
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/css/index.css \
+/Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/css/index_1.css \
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/img/logo.png \
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/ios/cordova \
 /Users/arunramamurthy/Documents/Training/Cordova/ar-crhybridapp3/platforms/android/assets/www/ios/cordova/plugins \

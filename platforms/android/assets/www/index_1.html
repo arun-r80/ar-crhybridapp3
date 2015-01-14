@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" >
+<head>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src = "js/controllers/mycontrollers.js"></script>
+<script src = "js/controllers/save-contacts.js"></script>
+<script src = "js/filters/myfilter.js"></script>
+<link rel="stylesheet" type="text/css" href="css/index.css"></link>
+</head>
+
+<body>
+	<br> </br>
+	<br> </br>
+	
+
+ <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+        app.initialize();
+        </script>
+<div id="container" class="ar-container">
+    <div ng-app = "mymodule">
+	<!-- Declare form -->
+		<form name="ar-contacts-form-1" ng-controller = "mycontroller" class = "ar-contacts-form">
+			<!-- create username --> 			
+			Enter First Name : 
+			<input type="text" name = "ar-contacts-firstname" ng-model = "contact.firstname"></input>
+	        Enter Last Name : 
+			<input type="text" name = "ar-contacts-lastname" ng-model = "contact.lastname"></input>
+			Enter Number : 
+			<input type="text" name = "ar-contacts-number" ng-model = "contact.usernumber"></input>
+			<button ng-click = "save(contact)">Save</button>
+			
+		</form>
+	</div>
+
+</div>
+
+</body>
+
+
+
