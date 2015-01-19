@@ -1,12 +1,11 @@
 <!doctype html>
 <html lang="en" >
 <head>
-
 <script src="bower_components/angular/angular.js"></script>
-<script src="bower_components/angular-route/angular-route.js"></script>
 <script src = "js/controllers/mycontrollers.js"></script>
 <script src = "js/controllers/save-contacts.js"></script>
 <script src = "js/filters/myfilter.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
 <link rel="stylesheet" type="text/css" href="css/index.css"></link>
 </head>
 
@@ -22,16 +21,25 @@
 	<!-- Declare form -->
 		<form name="ar-contacts-form-1" ng-controller = "mycontroller" class = "ar-contacts-form">
 			<!-- create username --> 			
-<div name="ar-div-firstname" class="ar-contacts-firstname">
-<label>Enter First Name : </label>
-			<input type="text" name = "ar-contacts-firstname" ng-model = "contact.firstname"></input></div>
-<div name = "ar-lastname" class="ar-contacts-lastname">	
-	        <label>Enter Last Name : </label>	
-<input type="text" name = "ar-contacts-lastname" ng-model = "contact.lastname"></input></div>
-<div name = "ar-mobilenumber" class="ar-contacts-mobilenumber">
-			
-<label>Enter Number : </label>
-<input type="text" name = "ar-contacts-number" ng-model = "contact.usernumber"></input></div>
+			<div name="ar-div-firstname"   class="ar-contacts-firstname-style">
+				<label>Enter First Name : </label>
+				<input type="text"   ng-model = "contact.firstname" name = "ar-contacts-firstname" arname></input>
+				<div ng-show = "ar-contacts-form-1.ar-contacts-firstname.$error.arname"> The name is not valid
+
+				</div>
+			</div>
+			<!-- Create Last name -->
+			<div name = "ar-lastname"   class="ar-contacts-lastname-style">	
+		        <label>Enter Last Name : </label>	
+				<input type="text"   ng-model = "contact.lastname" name = "ar-contacts-lastname" arname></input>
+				<div ng-show = "ar-contacts-form-1.ar-contacts-lastname.$error.arname"> The name is not valid</div>
+			</div>
+			<!-- Create mobile number -->
+			<div name = "ar-mobilenumber" class="ar-contacts-mobilenumber">
+				<label>Enter Number : </label>
+				<input type="text" name = "ar-contacts-number" ng-model = "contact.usernumber"></input>
+			</div>
+			<!-- Save button -->
 			<button ng-click = "save(contact)">Save</button>
 			
 		</form>
