@@ -1,0 +1,15 @@
+2015-01-23 22:52:58.519 ArunContacts[4553:53999] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/arunramamurthy/Library/Developer/CoreSimulator/Devices/7D2CAB12-4966-40CE-B09D-22B787F39CA4/data/Containers/Data/Application/E3083536-5EF6-45FC-9CE0-CC3FD5861D7A/Library/Cookies/Cookies.binarycookies
+2015-01-23 22:53:00.064 ArunContacts[4553:53999] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-23 22:53:00.064 ArunContacts[4553:53999] Multi-tasking -> Device: YES, App: YES
+2015-01-23 22:53:00.094 ArunContacts[4553:53999] Unlimited access to network resources
+2015-01-23 22:53:00.147 ArunContacts[4553:53999] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-01-23 22:53:01.960 ArunContacts[4553:53999] Resetting plugins due to page load.
+2015-01-23 22:53:03.343 ArunContacts[4553:53999] Finished load of: file:///Users/arunramamurthy/Library/Developer/CoreSimulator/Devices/7D2CAB12-4966-40CE-B09D-22B787F39CA4/data/Containers/Bundle/Application/55A75E95-AEED-4F82-9C97-5F94CADEEA4E/ArunContacts.app/www/index.html
+2015-01-23 22:53:39.604 ArunContacts[4553:53999] THREAD WARNING: ['Contacts'] took '12.238037' ms. Plugin should use a background thread.

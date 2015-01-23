@@ -127,9 +127,9 @@ h1 {
     top: 5%;width:40%; left:30%;	
 }
 
-.ar-contacts-firstname, .ar-contacts-lastname, .ar-contacts-mobilenumber{display:block; overflow:hidden; margin:2%;
+.ar-contacts-firstname-style, .ar-contacts-lastname-style, .ar-contacts-mobilenumber{display:block; overflow:hidden; margin:2%;
 }
-.ar-contacts-firstname label, .ar-contacts-lastname label, .ar-contacts-mobilenumber label{font-weight:bold; width:45%;text-align:left; display:block; float:left;}
+.ar-contacts-firstname-style label, .ar-contacts-lastname-style label, .ar-contacts-mobilenumber label{font-weight:bold; width:45%;text-align:left; display:block; float:left;}
 input{ float:right; width:50%;border-radius:5px; padding:1%;}
 .ar-contacts-mobilenumber-input{ margin-left:0; }
 
