@@ -8,6 +8,7 @@ var mymodule = angular.module('mymodule', []);
 mymodule.controller('mycontroller',['$scope','$window','saveContacts',function($scope,$window,saveContacts){
   //define greeting message;
   $scope.contact = {};
+  $scope.contact.firstname = "Arun";
   
   /*Create save function to test data save*/
   $scope.save = function (contact){
